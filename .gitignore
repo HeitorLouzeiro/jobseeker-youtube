@@ -1,0 +1,20 @@
+# Nunca versionar dados pessoais reais
+output/
+tmp/
+*.pdf
+!docs/**/*.pdf
+.claude/settings.local.json
+
+# SO / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (se você usar alguma skill/tool auxiliar em JS)
+node_modules/

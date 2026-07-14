@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)"
+    ]
+  },
+  "_comment": [
+    "Copie este arquivo para .claude/settings.local.json (esse fica no .gitignore, não é versionado) e ajuste",
+    "as permissões para as ferramentas que você realmente usa.",
+    "",
+    "Se você usa uma skill de automação de navegador própria (tipo 'ego-lite' / um driver Node.js) em vez do",
+    "Claude in Chrome, adicione algo como: \"Bash(nome-da-sua-skill nodejs *)\" para liberar o comando sem",
+    "precisar aprovar toda vez.",
+    "",
+    "Se você usa o conector do Google Drive/Sheets, libere o método correspondente, ex:",
+    "\"mcp__google_drive__read_file_content\"."
+  ]
+}
