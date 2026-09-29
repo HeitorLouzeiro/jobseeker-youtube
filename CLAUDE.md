@@ -98,8 +98,9 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 
 ## Onde buscar vagas
 
-LinkedIn (Easy Apply), Indeed, Gupy, Programathor, sites das empresas.
-ATS comuns: Gupy, Greenhouse, Ashby, Lever, Recruitee, Teamtailor, SuccessFactors, Workable, Oracle ORC.
+**Somente LinkedIn.** Não buscar nem sugerir vagas de Indeed, Gupy, ProgramaThor, PrimeiraVagaTech, Casa do Dev,
+sites de empresas ou outros portais. Se uma vaga do LinkedIn redirecionar para o site da empresa, registrar como
+"sem candidatura simplificada" e deixar o Heitor decidir. Preferir vagas com **Candidatura simplificada**.
 
 ## Acesso técnico (como a IA interage com o navegador)
 
