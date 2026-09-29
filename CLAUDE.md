@@ -31,6 +31,8 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
   - Parou um ataque ao servidor em **menos de 15 minutos** e colocou **cerca de 25 sistemas** de volta no ar.
   - Reforçou a segurança de **24 aplicações em Docker** (firewall, limites de recursos, atualização do servidor).
   - Relatório do incidente (causa, impacto, solução) entregue em **24 horas**.
+  - Na Prefeitura, coordena uma **equipe de 4 pessoas** no desenvolvimento dos sistemas: define o que deve
+    ser feito, como fazer e os prazos. Descrever como coordenação técnica, não como cargo de gestor/tech lead.
   - Sistema de eventos Agrosul Piauí: **+50 artigos** submetidos, **+100 listas de presença**, **+900 certificados**.
   - Automação SEDUC: **+1.000 alunos** cadastrados, tempo de processamento reduzido em **80%**.
   - PoC OKEAN Yachts: equipe de **4 pessoas** (2 devs, 1 tech lead, 1 scrum master), **4 páginas** criadas.

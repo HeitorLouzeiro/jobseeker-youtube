@@ -146,7 +146,8 @@ CONTENT = {
         "summary": (
             "Backend developer with 3 years of experience in Python. At the Corrente City Hall, I stopped a "
             "server attack in under 15 minutes, brought about 25 systems back online and hardened 24 Docker "
-            "applications so the problem would not come back. During my studies I built an event management "
+            "applications so the problem would not come back. I also coordinate a team of 4 people on systems "
+            "development. During my studies I built an event management "
             "system for Agrosul Piauí that received 50+ scientific papers, generated 100+ attendance lists for "
             "workshops and issued 900+ certificates."
         ),
@@ -163,6 +164,8 @@ CONTENT = {
                     "Hardened 24 Docker applications (firewall, resource limits, server updates) so the issue "
                     "would not happen again.",
                     "Wrote the incident report (root cause, impact and fix) within 24 hours.",
+                    "Coordinated a team of 4 people on systems development: defined what had to be built, how "
+                    "it should be done and the deadlines.",
                 ],
             ),
         ],
@@ -207,7 +210,8 @@ CONTENT = {
         "summary": (
             "Desenvolvedor backend com 3 anos de experiência em Python. Na Prefeitura de Corrente, parei um "
             "ataque ao servidor em menos de 15 minutos, coloquei cerca de 25 sistemas de volta no ar e reforcei "
-            "a segurança de 24 aplicações em Docker para o problema não voltar. Durante a graduação, desenvolvi "
+            "a segurança de 24 aplicações em Docker para o problema não voltar. Também coordeno uma equipe de 4 pessoas no "
+            "desenvolvimento dos sistemas. Durante a graduação, desenvolvi "
             "um sistema de gerenciamento de eventos para a Agrosul Piauí que recebeu mais de 50 artigos "
             "científicos, gerou mais de 100 listas de presença para minicursos e oficinas e emitiu mais de 900 "
             "certificados."
@@ -226,6 +230,8 @@ CONTENT = {
                     "Reforcei a segurança de 24 aplicações em Docker (firewall, limites de recursos e atualização "
                     "do servidor) para o problema não voltar.",
                     "Escrevi o relatório (causa, impacto e solução), do problema à correção, em 24 horas.",
+                    "Coordenei uma equipe de 4 pessoas no desenvolvimento dos sistemas: definia o que precisava "
+                    "ser feito, como fazer e os prazos.",
                 ],
             ),
         ],
