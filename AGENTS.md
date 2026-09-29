@@ -38,7 +38,7 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
   Nunca declarar inglês intermediário/avançado/fluente.
 - **Disponibilidade:** **somente vagas 100% remotas** (no Brasil). Descartar vagas híbridas e presenciais, mesmo
   em São Paulo. Aceita **CLT e PJ** (não descartar vaga pelo regime).
-  Data de início: `[A CONFIRMAR]`.
+  Data de início: **imediata** (pode começar assim que for aprovado).
 - **Formação:** Análise e Desenvolvimento de Sistemas, IFPI (Instituto Federal do Piauí). Curso de Django Web
   Framework (Udemy).
 - **CV em uso:** `output/cv_heitor_louzeiro_pt.pdf` e `output/cv_heitor_louzeiro_en.pdf`, gerados por
