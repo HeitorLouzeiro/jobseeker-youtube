@@ -43,15 +43,19 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 - **CV em uso:** `output/cv_heitor_louzeiro_pt.pdf` e `output/cv_heitor_louzeiro_en.pdf`, gerados por
   `python scripts/build_cv.py`.
 - **Contato:** heitorlouzeiro2019@gmail.com · (89) 99905-4536 · https://www.linkedin.com/in/heitor-louzeiro/
+- **Níveis-alvo (foco obrigatório):** somente vagas de **Estágio, Júnior ou Pleno**. Descartar Sênior,
+  Especialista, Tech Lead, Staff e Principal, mesmo que o stack bata.
 - **Prioridade de vagas (em ordem):**
   1. Desenvolvedor Backend Python (Júnior / Pleno), Django, remoto no Brasil.
   2. Desenvolvedor Python Júnior / Pleno (qualquer framework), remoto ou em São Paulo.
-  3. DevOps / SRE Júnior com Python, Docker e Linux.
-  4. Automação / RPA com Python (Selenium).
-  Evitar vagas Sênior, vagas que exigem inglês avançado/fluente, e vagas fora do Brasil que exigem visto.
+  3. Estágio em desenvolvimento backend / Python (conferir se exige matrícula ativa na faculdade).
+  4. DevOps / SRE Júnior com Python, Docker e Linux.
+  5. Automação / RPA com Python (Selenium).
+  Evitar vagas que exigem inglês avançado/fluente e vagas fora do Brasil que exigem visto.
 - **Buscas de nicho prioritárias (LinkedIn):** "Desenvolvedor Python", "Desenvolvedor Backend Python",
   "Python Django", "Desenvolvedor Django", "Python Júnior", "DevOps Júnior", "Automação Python",
-  "Desenvolvedor Python Pleno".
+  "Desenvolvedor Python Pleno", "Backend Pleno", "Estágio Python",
+  "Estágio Desenvolvimento Back End".
 
 ## Regras ao escrever em nome do Heitor
 
@@ -77,7 +81,7 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 
 ## Como buscar vagas no LinkedIn
 
-- Usar as buscas prontas em `vagas/README.md` (filtros: Brasil, remoto, últimas 24h/semana, nível Júnior/Pleno).
+- Usar as buscas prontas em `vagas/README.md` (filtros: Brasil, remoto, últimas 24h/semana, nível Estágio/Júnior/Pleno).
 - Para cada vaga relevante, registrar no arquivo da rodada em `vagas/`: empresa, cargo, local/modelo, link, e
   uma linha de fit (o que bate com o CV e o que falta).
 - Conferir se a vaga ainda está aberta antes de preparar candidatura (vagas antigas somem ou expiram).
