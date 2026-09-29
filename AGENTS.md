@@ -32,7 +32,7 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
     ser feito, como fazer e os prazos. Descrever como coordenação técnica, não como cargo de gestor/tech lead.
   - Sistema de eventos Agrosul Piauí: **+50 artigos** submetidos, **+100 listas de presença**, **+900 certificados**.
   - Automação SEDUC: **+1.000 alunos** cadastrados, tempo de processamento reduzido em **80%**.
-  - PoC OKEAN Yachts: atuou como **desenvolvedor frontend** (não backend) numa equipe de **4 pessoas** (2 devs,
+  - PoC OKEAN Yachts: atuou como **desenvolvedor frontend / UX-UI Design** (não backend) numa equipe de **4 pessoas** (2 devs,
     1 tech lead, 1 scrum master); criou **4 páginas** (Home, Login, Signup, Chat de atendimento integrado ao ChatGPT).
 - **Stack (só o que está no CV, não acrescentar):** Python, Django, PostgreSQL, Docker, Linux (servidor,
   firewall), Heroku, Git, Selenium, OpenAI API, HTML, CSS, Bootstrap.
