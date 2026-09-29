@@ -30,6 +30,20 @@ Dica: comece pelas últimas 24h; vagas novas com candidatura simplificada recebe
 | DevOps Júnior | [abrir](https://www.linkedin.com/jobs/search/?keywords=DevOps%20J%C3%BAnior&geoId=106057199&f_WT=2&f_E=2&f_AL=true&f_TPR=r86400) | [abrir](https://www.linkedin.com/jobs/search/?keywords=DevOps%20J%C3%BAnior&geoId=106057199&f_WT=2&f_E=2&f_AL=true&f_TPR=r604800) |
 | Automação Python | [abrir](https://www.linkedin.com/jobs/search/?keywords=Automa%C3%A7%C3%A3o%20Python&geoId=106057199&f_WT=2&f_E=2&f_AL=true&f_TPR=r86400) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Automa%C3%A7%C3%A3o%20Python&geoId=106057199&f_WT=2&f_E=2&f_AL=true&f_TPR=r604800) |
 
+## Estágio + remoto (Brasil)
+
+Filtros: Brasil, remoto (`f_WT=2`), só Estágio (`f_E=1`), última semana. Estágio exige matrícula ativa em curso
+superior ou técnico: conferir antes de se candidatar.
+
+| Busca | Última semana | Última semana + Candidatura simplificada |
+|---|---|---|
+| Estágio Python | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Python&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Python&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800&f_AL=true) |
+| Estágio Back End | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Back%20End&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Back%20End&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800&f_AL=true) |
+| Estágio Desenvolvimento | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Desenvolvimento&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Desenvolvimento&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800&f_AL=true) |
+| Estágio Django | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Django&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20Django&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800&f_AL=true) |
+| Estágio DevOps / Infraestrutura | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20DevOps&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20DevOps&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800&f_AL=true) |
+| Estágio TI | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20TI&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800) | [abrir](https://www.linkedin.com/jobs/search/?keywords=Est%C3%A1gio%20TI&geoId=106057199&f_WT=2&f_E=1&f_TPR=r604800&f_AL=true) |
+
 Dica: em cada busca, clique em "Criar alerta" para o LinkedIn te avisar de vagas novas por e-mail.
 
 Nível no LinkedIn: Estágio = "Estágio/Internship" (1), Júnior = "Assistente/Entry level" (2), Pleno = "Júnior
