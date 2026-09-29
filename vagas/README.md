@@ -2,7 +2,7 @@
 
 Links com filtros já aplicados. Abra logado no LinkedIn (ou peça para a IA abrir via Claude in Chrome).
 
-Filtros usados: `geoId=106057199` (Brasil), `f_WT=2` (remoto), `f_E=1,2,3` (Estágio + Júnior + Pleno/Assistente),
+Todas as buscas são só no Brasil. Filtros usados: `geoId=106057199` (Brasil), `f_WT=2` (remoto), `f_E=1,2,3` (Estágio + Júnior + Pleno/Assistente),
 `f_TPR=r604800` (última semana; troque por `r86400` para últimas 24h), `f_AL=true` (só Easy Apply).
 
 | Prioridade | Busca | Remoto, última semana | Remoto + Easy Apply |

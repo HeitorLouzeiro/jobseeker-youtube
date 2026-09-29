@@ -58,7 +58,9 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
   3. Estágio remoto em desenvolvimento backend / Python (conferir se exige matrícula ativa na faculdade).
   4. DevOps / SRE Júnior remoto com Python, Docker e Linux.
   5. Automação / RPA remoto com Python (Selenium).
-  Evitar vagas que exigem inglês avançado/fluente e vagas fora do Brasil que exigem visto.
+  **Foco no Brasil:** só vagas de empresas/contratação no Brasil (remotas dentro do Brasil). Descartar vagas
+  internacionais ("remote worldwide", pagamento em dólar/euro, cliente estrangeiro), vagas fora do Brasil e vagas
+  que exigem inglês avançado/fluente.
 - **Buscas de nicho prioritárias (LinkedIn):** "Desenvolvedor Python", "Desenvolvedor Backend Python",
   "Python Django", "Desenvolvedor Django", "Python Júnior", "DevOps Júnior", "Automação Python",
   "Desenvolvedor Python Pleno", "Backend Pleno", "Estágio Python",
