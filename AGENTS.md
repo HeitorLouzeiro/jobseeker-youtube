@@ -36,8 +36,8 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 - **Localização / permissão de trabalho:** São Paulo, Brasil. Brasileiro, pode trabalhar no Brasil sem visto.
 - **Idiomas:** Português (nativo). Inglês básico (entende bem, mas tem dificuldade em falar e escrever).
   Nunca declarar inglês intermediário/avançado/fluente.
-- **Disponibilidade:** `[A CONFIRMAR: full-time? remoto / híbrido / presencial em SP? a partir de quando?]`.
-  Até ser confirmado, priorizar vagas remotas e híbridas/presenciais em São Paulo.
+- **Disponibilidade:** **somente vagas 100% remotas** (no Brasil). Descartar vagas híbridas e presenciais, mesmo
+  em São Paulo. Regime (CLT/PJ, full-time) e data de início: `[A CONFIRMAR]`.
 - **Formação:** Análise e Desenvolvimento de Sistemas, IFPI (Instituto Federal do Piauí). Curso de Django Web
   Framework (Udemy).
 - **CV em uso:** `output/cv_heitor_louzeiro_pt.pdf` e `output/cv_heitor_louzeiro_en.pdf`, gerados por
@@ -46,11 +46,11 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 - **Níveis-alvo (foco obrigatório):** somente vagas de **Estágio, Júnior ou Pleno**. Descartar Sênior,
   Especialista, Tech Lead, Staff e Principal, mesmo que o stack bata.
 - **Prioridade de vagas (em ordem):**
-  1. Desenvolvedor Backend Python (Júnior / Pleno), Django, remoto no Brasil.
-  2. Desenvolvedor Python Júnior / Pleno (qualquer framework), remoto ou em São Paulo.
-  3. Estágio em desenvolvimento backend / Python (conferir se exige matrícula ativa na faculdade).
-  4. DevOps / SRE Júnior com Python, Docker e Linux.
-  5. Automação / RPA com Python (Selenium).
+  1. Desenvolvedor Backend Python (Júnior / Pleno), Django, remoto.
+  2. Desenvolvedor Python Júnior / Pleno (qualquer framework), remoto.
+  3. Estágio remoto em desenvolvimento backend / Python (conferir se exige matrícula ativa na faculdade).
+  4. DevOps / SRE Júnior remoto com Python, Docker e Linux.
+  5. Automação / RPA remoto com Python (Selenium).
   Evitar vagas que exigem inglês avançado/fluente e vagas fora do Brasil que exigem visto.
 - **Buscas de nicho prioritárias (LinkedIn):** "Desenvolvedor Python", "Desenvolvedor Backend Python",
   "Python Django", "Desenvolvedor Django", "Python Júnior", "DevOps Júnior", "Automação Python",
@@ -81,10 +81,11 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 
 ## Como buscar vagas no LinkedIn
 
-- Usar as buscas prontas em `vagas/README.md` (filtros: Brasil, remoto, últimas 24h/semana, nível Estágio/Júnior/Pleno).
+- Usar as buscas prontas em `vagas/README.md` (filtros: Brasil, somente remoto, últimas 24h/semana, nível Estágio/Júnior/Pleno).
 - Para cada vaga relevante, registrar no arquivo da rodada em `vagas/`: empresa, cargo, local/modelo, link, e
   uma linha de fit (o que bate com o CV e o que falta).
-- Conferir se a vaga ainda está aberta antes de preparar candidatura (vagas antigas somem ou expiram).
+- Conferir se a vaga ainda está aberta e se é mesmo 100% remota antes de preparar candidatura (vagas antigas
+  somem ou expiram; algumas marcadas como remotas pedem ida ao escritório).
 
 ## Onde buscar vagas
 
