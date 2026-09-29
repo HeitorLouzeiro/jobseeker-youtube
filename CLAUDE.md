@@ -7,7 +7,7 @@ Instruções para qualquer IA (Claude, Cowork, Claude Code, etc.) que trabalhe n
 
 Este arquivo é o "cérebro" do sistema: garante que a IA fale sempre a mesma língua sobre o Heitor, não invente
 números, não varie a história de carreira de candidatura para candidatura, e saiba onde e como registrar o que
-foi feito. Fonte do perfil: `Curriculo_-_Heitor_Garcez_Martins_Louzeiro.pdf` (não versionado).
+foi feito. Fonte do perfil: `docs/cv/Curriculo_-_Heitor_Garcez_Martins_Louzeiro.pdf`.
 
 ## Objetivo
 
@@ -47,8 +47,8 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
   Data de início: **imediata** (pode começar assim que for aprovado).
 - **Formação:** Análise e Desenvolvimento de Sistemas, IFPI (Instituto Federal do Piauí). Curso de Django Web
   Framework (Udemy).
-- **CV em uso:** `output/cv_heitor_louzeiro_pt.pdf` e `output/cv_heitor_louzeiro_en.pdf`, gerados por
-  `python scripts/build_cv.py`.
+- **CV em uso (enviar sempre este):** `docs/cv/Curriculo_-_Heitor_Garcez_Martins_Louzeiro.pdf`, o currículo
+  original do Heitor. **Não usar `scripts/build_cv.py`** nem PDFs gerados em `output/`. Não editar esse PDF.
 - **Contato:** heitorlouzeiro2019@gmail.com · (89) 99905-4536 · https://www.linkedin.com/in/heitor-louzeiro/
 - **Níveis-alvo (foco obrigatório):** somente vagas de **Estágio, Júnior ou Pleno**. Descartar Sênior,
   Especialista, Tech Lead, Staff e Principal, mesmo que o stack bata.
@@ -72,7 +72,7 @@ fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre co
 - Escrever em português por padrão. Em inglês, só se a vaga exigir, e sem exagerar o nível de inglês.
 - Responder perguntas de elegibilidade e localização com honestidade.
 - **Não criar contas, não digitar senhas, não resolver CAPTCHA.** Pular essas etapas e avisar.
-- **Não auto-submeter candidaturas.** Preparar a candidatura (respostas, carta, CV certo) e deixar para o Heitor
+- **Não auto-submeter candidaturas.** Preparar a candidatura (respostas, carta e o CV de `docs/cv/`) e deixar para o Heitor
   revisar e enviar, salvo autorização explícita para uma vaga específica.
 - **Nunca inventar:** pretensão salarial, anos de experiência em tecnologias além das listadas, tecnologias que
   não estão no CV (ex: FastAPI, AWS, Kubernetes, React), nível de inglês, ou respostas técnicas dissertativas
