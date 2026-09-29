@@ -130,125 +130,134 @@ class Doc:
 
 
 # ---------------------------------------------------------------------------
-# CONTEÚDO DE EXEMPLO — troque tudo abaixo pelos seus dados reais.
-# Mantenha a mesma estrutura de chaves; só o texto precisa mudar.
+# CONTEÚDO: Heitor Garcez Martins Louzeiro.
+# Fonte: Curriculo_-_Heitor_Garcez_Martins_Louzeiro.pdf. Números e datas devem bater com o AGENTS.md.
 # ---------------------------------------------------------------------------
 CONTENT = {
     "en": {
-        "out": "cv_example_en.pdf",
-        "pdf_title": "Jane Doe - CV EN",
-        "name": "Jane Doe",
-        "title": "Your Professional Title",
-        "tagline": "Key skill  ·  Key skill  ·  Key skill",
-        "contact": "City, Country  ·  you@example.com  ·  +00 000 000 000",
-        "contact2": "yourportfolio.com  ·  linkedin.com/in/yourprofile  ·  github.com/yourhandle",
+        "out": "cv_heitor_louzeiro_en.pdf",
+        "pdf_title": "Heitor Garcez Martins Louzeiro - CV EN",
+        "name": "Heitor Garcez Martins Louzeiro",
+        "title": "Backend Python Developer",
+        "tagline": "Python  ·  Django  ·  Docker  ·  PostgreSQL  ·  Linux",
+        "contact": "São Paulo, Brazil  ·  heitorlouzeiro2019@gmail.com  ·  +55 (89) 99905-4536",
+        "contact2": "linkedin.com/in/heitor-louzeiro",
         "s_summary": "Summary",
         "summary": (
-            "One consistent paragraph describing who you are professionally, your years of experience, the "
-            "kind of problems you solve, and the single metric you always want to lead with. Keep this exact "
-            "wording across every CV version so your story never contradicts itself."
+            "Backend developer with 3 years of experience in Python. At the Corrente City Hall, I stopped a "
+            "server attack in under 15 minutes, brought about 25 systems back online and hardened 24 Docker "
+            "applications so the problem would not come back. During my studies I built an event management "
+            "system for Agrosul Piauí that received 50+ scientific papers, generated 100+ attendance lists for "
+            "workshops and issued 900+ certificates."
         ),
         "s_exp": "Work Experience",
-        "chatguru_h": "Company Name, what they do",
-        "chatguru_m": "Month Year to Month Year  ·  Remote/Hybrid/On-site",
-        "chatguru_note": "One line framing the whole tenure, e.g. a continuous growth story across roles.",
+        "chatguru_h": "Corrente City Hall (Prefeitura Municipal de Corrente)",
+        "chatguru_m": "Jun 2025 to present",
+        "chatguru_note": "Public sector, in charge of backend and infrastructure for the city's systems.",
         "roles": [
             (
-                "Most Recent Title",
-                "Month Year to Month Year",
+                "Backend Developer and DevOps",
+                "Jun 2025 to present",
                 [
-                    "Result-oriented bullet describing scope and impact.",
-                    "Another bullet with a concrete, consistent metric.",
-                ],
-            ),
-            (
-                "Previous Title",
-                "Month Year to Month Year",
-                [
-                    "Bullet describing what you built or owned in this role.",
+                    "Stopped an attack on the server in under 15 minutes and brought about 25 systems back online.",
+                    "Hardened 24 Docker applications (firewall, resource limits, server updates) so the issue "
+                    "would not happen again.",
+                    "Wrote the incident report (root cause, impact and fix) within 24 hours.",
                 ],
             ),
         ],
-        "ninja_h": "Side Project / Consultancy Name",
-        "ninja_m": "Month Year to Month Year",
-        "ninja_note": "One line clarifying this was part-time and ran alongside your main role, if applicable.",
+        "ninja_h": "Freelance and Project Work",
+        "ninja_m": "Apr 2023 to Jun 2024",
+        "ninja_note": "Short, project-based engagements before the current role.",
         "ninja_bullets": [
-            "Bullet describing the scope of this side project or consultancy.",
+            "Events system (Agrosul Piauí), Mar to Jun 2024: built with Django, Bootstrap, PostgreSQL and "
+            "Heroku; 900+ certificates generated and 50+ papers submitted with automatic e-mail delivery.",
+            "OKEAN Yachts PoC, Dec 2023 to Jan 2024: in a team of 4 (2 devs, 1 tech lead, 1 scrum master), "
+            "built 4 pages (Home, Login, Signup, support Chat) integrated with ChatGPT using Django and OpenAI.",
+            "Student registration automation (SEDUC), Apr 2023: Python and Selenium script that registered "
+            "1,000+ students and cut processing time by 80%.",
         ],
         "s_projects": "Selected Projects",
         "projects": [
-            "Project name: one line describing what it does and the stack used.",
+            "Event management system: paper submission, attendance lists and automatic certificates "
+            "(Django, PostgreSQL, Heroku).",
         ],
         "s_skills": "Skills",
         "skills": [
-            ("Category", "Skill, skill, skill"),
-            ("Category", "Skill, skill, skill"),
+            ("Backend", "Python, Django, PostgreSQL, OpenAI API"),
+            ("Infra / DevOps", "Docker, Linux servers, firewall, Heroku, Git"),
+            ("Automation", "Selenium, document processing"),
+            ("Frontend", "HTML, CSS, Bootstrap"),
         ],
         "s_lang": "Languages & Education",
-        "languages": "Language (level)  ·  Language (level)",
-        "education": "Degree / certification / what you are currently studying",
+        "languages": "Portuguese (native)  ·  English (basic: good reading comprehension, limited speaking and writing)",
+        "education": "Systems Analysis and Development, IFPI (Federal Institute of Piauí)  ·  Django Web Framework course, Udemy",
         "s_refs": "References",
-        "refs": [
-            '"A short quote from a former manager or client." Name, Title, Company',
-        ],
+        "refs": [],
     },
     "pt": {
-        "out": "cv_example_pt.pdf",
-        "pdf_title": "Jane Doe - CV PT",
-        "name": "Jane Doe",
-        "title": "Seu Título Profissional",
-        "tagline": "Skill chave  ·  Skill chave  ·  Skill chave",
-        "contact": "Cidade, País  ·  voce@example.com  ·  +00 000 000 000",
-        "contact2": "seuportfolio.com  ·  linkedin.com/in/seuperfil  ·  github.com/seuusuario",
+        "out": "cv_heitor_louzeiro_pt.pdf",
+        "pdf_title": "Heitor Garcez Martins Louzeiro - CV PT",
+        "name": "Heitor Garcez Martins Louzeiro",
+        "title": "Desenvolvedor Backend Python",
+        "tagline": "Python  ·  Django  ·  Docker  ·  PostgreSQL  ·  Linux",
+        "contact": "São Paulo, Brasil  ·  heitorlouzeiro2019@gmail.com  ·  (89) 99905-4536",
+        "contact2": "linkedin.com/in/heitor-louzeiro",
         "s_summary": "Resumo",
         "summary": (
-            "Um parágrafo consistente descrevendo quem você é profissionalmente, seus anos de experiência, o "
-            "tipo de problema que resolve, e a métrica única que você sempre quer destacar. Use exatamente o "
-            "mesmo texto em todas as versões do CV para a história nunca se contradizer."
+            "Desenvolvedor backend com 3 anos de experiência em Python. Na Prefeitura de Corrente, parei um "
+            "ataque ao servidor em menos de 15 minutos, coloquei cerca de 25 sistemas de volta no ar e reforcei "
+            "a segurança de 24 aplicações em Docker para o problema não voltar. Durante a graduação, desenvolvi "
+            "um sistema de gerenciamento de eventos para a Agrosul Piauí que recebeu mais de 50 artigos "
+            "científicos, gerou mais de 100 listas de presença para minicursos e oficinas e emitiu mais de 900 "
+            "certificados."
         ),
         "s_exp": "Experiência Profissional",
-        "chatguru_h": "Nome da Empresa, o que ela faz",
-        "chatguru_m": "mês ano a mês ano  ·  Remoto/Híbrido/Presencial",
-        "chatguru_note": "Uma linha explicando a trajetória, ex: uma história de crescimento contínuo entre cargos.",
+        "chatguru_h": "Prefeitura Municipal de Corrente",
+        "chatguru_m": "jun 2025 a atual",
+        "chatguru_note": "Setor público, responsável pelo backend e pela infraestrutura dos sistemas do município.",
         "roles": [
             (
-                "Cargo mais recente",
-                "mês ano a mês ano",
+                "Desenvolvedor Backend e DevOps",
+                "jun 2025 a atual",
                 [
-                    "Bullet orientado a resultado descrevendo escopo e impacto.",
-                    "Outro bullet com uma métrica concreta e consistente.",
-                ],
-            ),
-            (
-                "Cargo anterior",
-                "mês ano a mês ano",
-                [
-                    "Bullet descrevendo o que você construiu ou liderou nesse cargo.",
+                    "Parei um ataque ao servidor em menos de 15 minutos e coloquei de volta no ar cerca de 25 "
+                    "sistemas que estavam fora do ar.",
+                    "Reforcei a segurança de 24 aplicações em Docker (firewall, limites de recursos e atualização "
+                    "do servidor) para o problema não voltar.",
+                    "Escrevi o relatório (causa, impacto e solução), do problema à correção, em 24 horas.",
                 ],
             ),
         ],
-        "ninja_h": "Nome do projeto paralelo / consultoria",
-        "ninja_m": "mês ano a mês ano",
-        "ninja_note": "Uma linha deixando claro que era part-time e simultâneo ao cargo principal, se for o caso.",
+        "ninja_h": "Freelances e Projetos",
+        "ninja_m": "abr 2023 a jun 2024",
+        "ninja_note": "Trabalhos pontuais, por projeto, antes do cargo atual.",
         "ninja_bullets": [
-            "Bullet descrevendo o escopo desse projeto paralelo ou consultoria.",
+            "Sistema de eventos (Agrosul Piauí), mar a jun 2024: Django, Bootstrap, PostgreSQL e Heroku; mais "
+            "de 900 certificados gerados e mais de 50 artigos submetidos com envio automático por e-mail.",
+            "PoC OKEAN Yachts, dez 2023 a jan 2024: em equipe de 4 pessoas (2 devs, 1 tech lead, 1 scrum "
+            "master), criei 4 páginas (Home, Login, Signup e Chat de atendimento) integradas ao ChatGPT, com "
+            "Django e OpenAI.",
+            "Automação de cadastro de alunos (SEDUC), abr 2023: script em Python e Selenium que cadastrou mais "
+            "de 1.000 alunos e reduziu o tempo de processamento em 80%.",
         ],
         "s_projects": "Projetos Selecionados",
         "projects": [
-            "Nome do projeto: uma linha descrevendo o que faz e o stack usado.",
+            "Sistema de gerenciamento de eventos: submissão de artigos, listas de presença e certificados "
+            "automáticos (Django, PostgreSQL, Heroku).",
         ],
         "s_skills": "Skills",
         "skills": [
-            ("Categoria", "Skill, skill, skill"),
-            ("Categoria", "Skill, skill, skill"),
+            ("Backend", "Python, Django, PostgreSQL, API da OpenAI"),
+            ("Infra / DevOps", "Docker, servidores Linux, firewall, Heroku, Git"),
+            ("Automação", "Selenium, processamento de documentos"),
+            ("Frontend", "HTML, CSS, Bootstrap"),
         ],
         "s_lang": "Idiomas & Educação",
-        "languages": "Idioma (nível)  ·  Idioma (nível)",
-        "education": "Formação / certificação / o que está estudando atualmente",
+        "languages": "Português (nativo)  ·  Inglês (básico: entendo bem, mas tenho dificuldade em falar e escrever)",
+        "education": "Análise e Desenvolvimento de Sistemas, IFPI (Instituto Federal do Piauí)  ·  Curso de Django Web Framework, Udemy",
         "s_refs": "Referências",
-        "refs": [
-            '"Uma citação curta de um ex-gestor ou cliente." Nome, Cargo, Empresa',
-        ],
+        "refs": [],
     },
 }
 
@@ -319,8 +328,9 @@ def build(lang):
     d.text(data["languages"], size=8.8, space=1)
     d.text(data["education"], size=8.8, space=0)
 
-    # References
-    d.section(data["s_refs"])
+    # References (opcional: deixe a lista vazia para omitir a seção)
+    if data["refs"]:
+        d.section(data["s_refs"])
     for r in data["refs"]:
         d.text(r, font="Sans-Italic", size=7.9, leading=9.6, color=MUTED, space=1)
 

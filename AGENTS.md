@@ -2,78 +2,97 @@
 
 Instruções para qualquer IA (Claude, Cowork, Claude Code, etc.) que trabalhe nesta pasta de busca de emprego.
 
-Este arquivo é o "cérebro" do sistema: é ele que garante que a IA fale sempre a mesma língua sobre você,
-não invente números, não varie a sua história de carreira de candidatura para candidatura, e saiba exatamente
-onde e como registrar o que foi feito. Preencha os campos entre `[colchetes]` com os seus dados antes de usar.
-
-> Por que um arquivo assim importa: sem regras explícitas, um agente de IA tende a "flutuar" — hoje diz que
-> você reduziu retrabalho em 60%, amanhã em 70%; hoje conta sua carreira de um jeito, amanhã de outro. Isso é
-> péssimo numa busca de emprego, onde CVs, LinkedIn, formulários e respostas de entrevista precisam bater. Este
-> arquivo existe para ser a única fonte de verdade sobre como falar de você.
+Este arquivo é o "cérebro" do sistema: garante que a IA fale sempre a mesma língua sobre o Heitor, não invente
+números, não varie a história de carreira de candidatura para candidatura, e saiba onde e como registrar o que
+foi feito. Fonte do perfil: `Curriculo_-_Heitor_Garcez_Martins_Louzeiro.pdf` (não versionado).
 
 ## Objetivo
 
-Apoiar a sua busca de emprego: encontrar vagas, candidatar-se e manter um tracker atualizado. A planilha/tracker
-(ver seção "Como atualizar o tracker") é a fonte de verdade sobre candidaturas — este arquivo é a fonte de
-verdade sobre como se apresentar.
+Apoiar a busca de emprego: encontrar vagas, preparar candidaturas e manter o tracker atualizado. O tracker é a
+fonte de verdade sobre candidaturas; este arquivo é a fonte de verdade sobre como se apresentar.
 
-- Tracker: `[link da sua planilha Google Sheets, ou aponte para tracker/job_tracker_template.csv se preferir local]`
-- Aba/coluna "Applications": todas as candidaturas.
-- Aba/coluna "Summary": contagens por status.
+- Tracker: `tracker/candidaturas.csv` (local).
+- Vagas encontradas e ainda não aplicadas: `vagas/` (um arquivo por rodada de busca, `AAAA-MM-DD_linkedin.md`).
 
-## Perfil do candidato (preencha com os seus dados)
+## Perfil do candidato
 
-- **Título profissional único:** `[ex: "AI Integration Engineer"]`. Escolha UM título e use sempre o mesmo —
-  não deixe a IA variar entre "Engenheiro de Automação", "Especialista em IA" etc. em materiais diferentes.
-- **Narrativa de carreira (defina UMA versão e repita sempre):** descreva aqui, em poucas frases, como quer que
-  sua trajetória seja contada. Se teve mais de um papel na mesma empresa, diga explicitamente que é "uma história
-  de crescimento contínuo", e não "empregos separados". Se teve um projeto paralelo/freelance, deixe claro que é
-  part-time e simultâneo, não dois empregos full-time ao mesmo tempo.
-- **Métrica(s) chave:** se você tem um número que usa para se vender (ex: "reduzi X em Y%"), escreva-o aqui UMA
-  vez e diga "usar sempre este número, nunca outro". Isso evita que a IA arredonde ou invente variações.
-- **Localização / permissão de trabalho:** `[cidade, país; nacionalidade; situação de visto/permissão]`.
-- **Idiomas:** `[liste idioma e nível, na forma exata que quer que apareça — ex: evite abreviações como "B2" se preferir "proficiência profissional"]`.
-- **Disponibilidade:** `[full-time / part-time, remoto / híbrido / presencial, a partir de quando]`.
-- **CV em uso:** `[nome do arquivo, ex: cv_seu_nome_en.pdf]` — gerado por `scripts/build_cv.py` (veja abaixo).
-- **Portfolio / LinkedIn / e-mail de contato:** `[links e e-mail que a IA deve usar nas candidaturas]`.
-- **Prioridade de vagas:** `[liste os tipos de vaga/empresa em ordem de prioridade]`.
-- **Buscas de nicho prioritárias:** `[palavras-chave que a IA deve priorizar ao buscar vagas]`.
+- **Nome:** Heitor Garcez Martins Louzeiro.
+- **Título profissional único:** "Desenvolvedor Backend Python" (em inglês: "Backend Python Developer"). Usar
+  sempre este título, em todo material. Não variar para "Engenheiro de Software", "Full Stack" etc.
+- **Narrativa de carreira (versão única):** Desenvolvedor backend com 3 anos de experiência em Python. Hoje é
+  Desenvolvedor Backend e DevOps na Prefeitura Municipal de Corrente (desde jun/2025), onde resolveu um incidente
+  grave de segurança. Antes disso, fez trabalhos freelance/por projeto (abr/2023 a jun/2024): automação para a
+  SEDUC, PoC para a OKEAN Yachts e o sistema de eventos da Agrosul Piauí, este último desenvolvido durante a
+  graduação no IFPI. Os freelances são projetos curtos e pontuais, não empregos full-time simultâneos.
+- **Métricas chave (usar sempre estes números, nunca outros, nunca arredondar para cima):**
+  - Parou um ataque ao servidor em **menos de 15 minutos** e colocou **cerca de 25 sistemas** de volta no ar.
+  - Reforçou a segurança de **24 aplicações em Docker** (firewall, limites de recursos, atualização do servidor).
+  - Relatório do incidente (causa, impacto, solução) entregue em **24 horas**.
+  - Sistema de eventos Agrosul Piauí: **+50 artigos** submetidos, **+100 listas de presença**, **+900 certificados**.
+  - Automação SEDUC: **+1.000 alunos** cadastrados, tempo de processamento reduzido em **80%**.
+  - PoC OKEAN Yachts: equipe de **4 pessoas** (2 devs, 1 tech lead, 1 scrum master), **4 páginas** criadas.
+- **Stack (só o que está no CV, não acrescentar):** Python, Django, PostgreSQL, Docker, Linux (servidor,
+  firewall), Heroku, Git, Selenium, OpenAI API, HTML, CSS, Bootstrap.
+- **Localização / permissão de trabalho:** São Paulo, Brasil. Brasileiro, pode trabalhar no Brasil sem visto.
+- **Idiomas:** Português (nativo). Inglês básico (entende bem, mas tem dificuldade em falar e escrever).
+  Nunca declarar inglês intermediário/avançado/fluente.
+- **Disponibilidade:** `[A CONFIRMAR: full-time? remoto / híbrido / presencial em SP? a partir de quando?]`.
+  Até ser confirmado, priorizar vagas remotas e híbridas/presenciais em São Paulo.
+- **Formação:** Análise e Desenvolvimento de Sistemas, IFPI (Instituto Federal do Piauí). Curso de Django Web
+  Framework (Udemy).
+- **CV em uso:** `output/cv_heitor_louzeiro_pt.pdf` e `output/cv_heitor_louzeiro_en.pdf`, gerados por
+  `python scripts/build_cv.py`.
+- **Contato:** heitorlouzeiro2019@gmail.com · (89) 99905-4536 · https://www.linkedin.com/in/heitor-louzeiro/
+- **Prioridade de vagas (em ordem):**
+  1. Desenvolvedor Backend Python (Júnior / Pleno), Django, remoto no Brasil.
+  2. Desenvolvedor Python Júnior / Pleno (qualquer framework), remoto ou em São Paulo.
+  3. DevOps / SRE Júnior com Python, Docker e Linux.
+  4. Automação / RPA com Python (Selenium).
+  Evitar vagas Sênior, vagas que exigem inglês avançado/fluente, e vagas fora do Brasil que exigem visto.
+- **Buscas de nicho prioritárias (LinkedIn):** "Desenvolvedor Python", "Desenvolvedor Backend Python",
+  "Python Django", "Desenvolvedor Django", "Python Júnior", "DevOps Júnior", "Automação Python",
+  "Desenvolvedor Python Pleno".
 
-## Regras ao escrever em seu nome (ajuste ao seu estilo)
+## Regras ao escrever em nome do Heitor
 
-- Defina aqui maneirismos de escrita que a IA deve seguir ou evitar (ex: "nunca usar travessão", "sempre em
-  primeira pessoa", "tom direto, sem jargão").
+- Sempre em primeira pessoa, tom direto, frases curtas, sem jargão de marketing.
+- Escrever em português por padrão. Em inglês, só se a vaga exigir, e sem exagerar o nível de inglês.
 - Responder perguntas de elegibilidade e localização com honestidade.
-- **Não criar contas, não digitar senhas, não resolver CAPTCHA.** A IA deve pular essas etapas e te avisar.
-- Defina se a IA **pode auto-submeter candidaturas** ou só preparar rascunhos para sua revisão. Se puder
-  auto-submeter, diga em quais condições (ex: só em Easy Apply, só se o fit for claro).
-- Diga explicitamente o que a IA **nunca deve inventar** por conta própria: pretensão salarial, anos exatos de
-  experiência num nicho específico, respostas dissertativas técnicas detalhadas. Nesses casos, ela deve salvar
-  um rascunho e te perguntar.
+- **Não criar contas, não digitar senhas, não resolver CAPTCHA.** Pular essas etapas e avisar.
+- **Não auto-submeter candidaturas.** Preparar a candidatura (respostas, carta, CV certo) e deixar para o Heitor
+  revisar e enviar, salvo autorização explícita para uma vaga específica.
+- **Nunca inventar:** pretensão salarial, anos de experiência em tecnologias além das listadas, tecnologias que
+  não estão no CV (ex: FastAPI, AWS, Kubernetes, React), nível de inglês, ou respostas técnicas dissertativas
+  detalhadas. Nesses casos, salvar rascunho e perguntar.
+- Se a vaga pedir algo que o Heitor não tem, dizer isso no resumo da vaga (ex: "pede AWS, que não está no CV")
+  em vez de esconder.
 
 ## Como atualizar o tracker
 
-- Cada candidatura vira uma linha com as colunas: `Date, Company, Role, Location, Mode, Source / ATS, Status, Notes`.
-- Valores de Status sugeridos: `Applied`, `Interview done`, `Action needed`, `Aguardando resposta`, `Closed`.
-- Antes de aplicar, a IA deve conferir se a empresa e a vaga já estão na lista, para não duplicar candidatura.
-- Depois de qualquer alteração, a IA deve reler o tracker e confirmar visualmente que a linha foi salva
-  (planilhas online às vezes "perdem" a digitação silenciosamente se o clique for no lugar errado).
+- Cada candidatura vira uma linha em `tracker/candidaturas.csv` com as colunas:
+  `Date, Company, Role, Location, Mode, Source / ATS, Status, Notes`.
+- Valores de Status: `Para avaliar`, `Applied`, `Interview done`, `Action needed`, `Aguardando resposta`, `Closed`.
+- Antes de aplicar, conferir se a empresa e a vaga já estão na lista, para não duplicar candidatura.
+- Depois de qualquer alteração, reler o tracker e confirmar que a linha foi salva.
+
+## Como buscar vagas no LinkedIn
+
+- Usar as buscas prontas em `vagas/README.md` (filtros: Brasil, remoto, últimas 24h/semana, nível Júnior/Pleno).
+- Para cada vaga relevante, registrar no arquivo da rodada em `vagas/`: empresa, cargo, local/modelo, link, e
+  uma linha de fit (o que bate com o CV e o que falta).
+- Conferir se a vaga ainda está aberta antes de preparar candidatura (vagas antigas somem ou expiram).
 
 ## Onde buscar vagas
 
-LinkedIn (Easy Apply), Indeed, relocate.me, sites das empresas.
-ATS comuns: Greenhouse, Ashby, Lever, Recruitee, Teamtailor, SuccessFactors, Workable, Oracle ORC.
+LinkedIn (Easy Apply), Indeed, Gupy, Programathor, sites das empresas.
+ATS comuns: Gupy, Greenhouse, Ashby, Lever, Recruitee, Teamtailor, SuccessFactors, Workable, Oracle ORC.
 
 ## Acesso técnico (como a IA interage com o navegador)
 
-Este workflow foi desenhado para funcionar com qualquer uma das duas opções abaixo — escolha uma:
+1. **Claude in Chrome** (extensão oficial): controla uma aba do Chrome já logado no LinkedIn. É a forma
+   recomendada para buscar vagas com filtros e usar o Easy Apply.
+2. **Uma skill de automação de navegador tipo "ego-lite"**: ajuste as permissões em
+   `.claude/settings.local.json.example` para o comando correspondente.
 
-1. **Claude in Chrome** (extensão oficial): a IA controla uma aba do seu navegador Chrome já logado, útil para
-   preencher formulários de candidatura e editar planilhas online diretamente.
-2. **Uma skill de automação de navegador tipo "ego-lite"**: se você usa uma skill/ferramenta própria de browser
-   automation (ex: um driver Node.js), ajuste as permissões em `.claude/settings.local.json.example` para o
-   comando correspondente e documente aqui como invocá-la.
-
-Se sua planilha for um Google Sheet nativo sem conector de API disponível, a IA deve editar diretamente pelo
-navegador: clicar na caixa de nome (Name Box), digitar a referência da célula (ex: `A61`), Enter, digitar o
-valor. Sempre releia depois para confirmar que salvou.
+Observação: sessões na nuvem do Claude Code podem ter o linkedin.com bloqueado pela política de rede. Nesse caso,
+a busca é feita por pesquisa web e os links precisam ser conferidos no navegador.
