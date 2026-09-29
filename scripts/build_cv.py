@@ -175,7 +175,7 @@ CONTENT = {
         "ninja_bullets": [
             "Events system (Agrosul Piauí), Mar to Jun 2024: built with Django, Bootstrap, PostgreSQL and "
             "Heroku; 900+ certificates generated and 50+ papers submitted with automatic e-mail delivery.",
-            "OKEAN Yachts PoC, Dec 2023 to Jan 2024: in a team of 4 (2 devs, 1 tech lead, 1 scrum master), "
+            "OKEAN Yachts PoC, Dec 2023 to Jan 2024: as frontend developer in a team of 4 (2 devs, 1 tech lead, 1 scrum master), "
             "built 4 pages (Home, Login, Signup, support Chat) integrated with ChatGPT using Django and OpenAI.",
             "Student registration automation (SEDUC), Apr 2023: Python and Selenium script that registered "
             "1,000+ students and cut processing time by 80%.",
@@ -241,7 +241,7 @@ CONTENT = {
         "ninja_bullets": [
             "Sistema de eventos (Agrosul Piauí), mar a jun 2024: Django, Bootstrap, PostgreSQL e Heroku; mais "
             "de 900 certificados gerados e mais de 50 artigos submetidos com envio automático por e-mail.",
-            "PoC OKEAN Yachts, dez 2023 a jan 2024: em equipe de 4 pessoas (2 devs, 1 tech lead, 1 scrum "
+            "PoC OKEAN Yachts, dez 2023 a jan 2024: como desenvolvedor frontend, em equipe de 4 pessoas (2 devs, 1 tech lead, 1 scrum "
             "master), criei 4 páginas (Home, Login, Signup e Chat de atendimento) integradas ao ChatGPT, com "
             "Django e OpenAI.",
             "Automação de cadastro de alunos (SEDUC), abr 2023: script em Python e Selenium que cadastrou mais "
